@@ -35,5 +35,12 @@ function clearCompletedTasks(){
     displayTasks();
 }
 
+// practise task - Button to clear all tasks
+function clearAllTasks(){
+    tasks = [];
+    displayTasks();
+}
+
 addTaskBtn.addEventListener('click', addTask);
 clearCompletedBtn.addEventListener('click', clearCompletedTasks);
+clearAllTasksBtn.addEventListener('click', clearAllTasks);
